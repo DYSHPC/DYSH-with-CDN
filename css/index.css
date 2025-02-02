@@ -66,9 +66,9 @@ footer {
     color: #666;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 570px) {
     .container {
-        width: 85%;
+        width: 82%;
         margin: 20px auto;
         padding: 15px;
     }
