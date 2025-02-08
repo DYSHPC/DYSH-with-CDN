@@ -1,92 +1,92 @@
 body {
-    font-family: "Noto Sans JP", serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: "Noto Sans JP", serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .container {
-    max-width: 900px;
-    background: white;
-    padding: 20px;
-    margin: 50px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  max-width: 900px;
+  background: white;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 h1 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 15px;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 p {
-    color: #666;
-    line-height: 1.6;
-    font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin: 20px auto;
-    width: 80%;
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px auto;
+  width: 80%;
 }
 
 .links {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
 
 .links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    background: #60dc8c;
-    color: white;
-    text-decoration: none;
-    border-radius: 9px;
-    transition: 0.3s;
-    width: 90%;
-    max-width: 500px;
-    font-size: 1.2em;
-    font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #60dc8c;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: 0.3s;
+  width: 90%;
+  max-width: 500px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .links a:hover {
-    background: #4aac6c;
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background: #4aac6c;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 footer {
-    margin-top: 30px;
-    font-size: 0.9rem;
-    color: #666;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 @media (max-width: 560px) {
-    .container {
-        width: 83%;
-        margin: 20px auto;
-        padding: 15px;
-    }
+  .container {
+    width: 83%;
+    margin: 20px auto;
+    padding: 15px;
+  }
 
-    h2 {
-        font-size: 1.3rem;
-    }
+  h2 {
+    font-size: 1.3rem;
+  }
 
-    .links a {
-        width: 100%;
-        font-size: 1.1em;
-    }
+  .links a {
+    width: 100%;
+    font-size: 1.1em;
+  }
 }
